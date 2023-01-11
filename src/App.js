@@ -2,7 +2,12 @@ import Home from "./pages/Home";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
 
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 
 import "./style.scss";
 import { useContext } from "react";
@@ -18,7 +23,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    <Router>
       <Routes>
         <Route path="/">
           <Route
@@ -34,7 +39,7 @@ function App() {
           <Route path="register" element={<Register />}></Route>
         </Route>
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 
