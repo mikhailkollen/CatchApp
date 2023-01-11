@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/CatchApp/static/css/main.754360ef.css",
-    "main.js": "/CatchApp/static/js/main.2982ff3a.js",
+    "main.js": "/CatchApp/static/js/main.1bc283b7.js",
     "index.html": "/CatchApp/index.html",
     "main.754360ef.css.map": "/CatchApp/static/css/main.754360ef.css.map",
-    "main.2982ff3a.js.map": "/CatchApp/static/js/main.2982ff3a.js.map"
+    "main.1bc283b7.js.map": "/CatchApp/static/js/main.1bc283b7.js.map"
   },
   "entrypoints": [
     "static/css/main.754360ef.css",
-    "static/js/main.2982ff3a.js"
+    "static/js/main.1bc283b7.js"
   ]
 }
